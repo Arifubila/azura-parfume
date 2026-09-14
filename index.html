@@ -1,81 +1,233 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sigand Parfume</title>
-    <link rel="stylesheet" href="style.css" />
+
+    <title>SIGAND PARFUME</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <!--NAVBAR-->
-    <div class="bg1">
-      <nav class="navbar">
-        <div class="logo">
-          <h3>SIGAND</h3>
-        </div>
-        <ul class="menu">
-          <li><a href="#shop">SHOP</a></li>
-          <li><a href="#">OUR STORY</a></li>
-          <li><a href="#">CONTACT US</a></li>
-        </ul>
-        <div class="shop">
-          <i class="ri-shopping-basket-fill"></i>
-        </div>
-      </nav>
-      <!--BAGIAN 1-->
-      <div class="b1">
-        <div class="judul">
-          <h1>DISCOVER <br />NEW <br />TASTES</h1>
-          <div class="p1">
-            Original spice blends sutable for both <br />home and professional
-            cooking
-          </div>
-          <button class="bt1">SHOP ALL PRODUCTS</button>
-        </div>
-        <img src="img/f1.jpeg" alt="eror" height="500px" class="f1" />
+    <!-- BACKGROUND -->
+    <div class="page-bg">
+      <!-- TOP LABEL -->
+      <div class="top-label">
+        <span class="label-icon">
+          <i class="ri-drop-fill"></i>
+        </span>
+
+        <span>HERO SECTION</span>
       </div>
-    </div>
-    <!--BAGIAN 2-->
-    <div class="b2">
-      <div class="p2">
-        <p>SIGAND PARFUME</p>
-        <p>SIGAND PARFUME</p>
-        <p>SIGAND PARFUME</p>
-        <p>SIGAND PARFUME</p>
+
+      <!-- FIGMA ICON -->
+      <div class="design-icon">
+        <i class="ri-flutter-fill"></i>
       </div>
-    </div>
-    <div class="bg2" id="shop">
-      <div class="b3">
-        <div class="f2">
-          <h1>COSINESS</h1>
-          <img src="img/f3.jpeg" alt="eror" height="200px" />
-          <div class="btt">
-            <button class="bt3">1</button>
-            <button class="bt2">ADD TO CART - $18</button>
+
+      <!-- MAIN WEBSITE -->
+      <div class="site-container">
+        <!-- ================= NAVBAR ================= -->
+
+        <nav class="navbar">
+          <div class="nav-left">
+            <a href="#shop">SHOP</a>
+            <a href="#shop">CATEGORY</a>
+            <a href="#release">NEW RELEASE</a>
           </div>
-        </div>
-        <div class="f3">
-          <h1>INTENSITY</h1>
-          <img src="img/f4.jpeg" alt="eror" height="200px" />
-          <div class="btt">
-            <button class="bt3">1</button>
-            <button class="bt2">ADD TO CART - $18</button>
+
+          <a href="#" class="logo"> Sigand </a>
+
+          <div class="nav-right">
+            <a href="#story">ABOUT</a>
+            <a href="#shop">BEST SELLER</a>
+            <a href="#contact">CONTACT</a>
           </div>
-        </div>
-        <div class="f4">
-          <h1>PASSION</h1>
-          <img src="img/f5.jpeg" alt="eror" height="200px" />
-          <div class="btt">
-            <button class="bt3">1</button>
-            <button class="bt2">ADD TO CART - $18</button>
+        </nav>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero">
+          <!-- decorative light -->
+          <div class="hero-light"></div>
+
+          <!-- decorative glow -->
+          <div class="hero-glow"></div>
+
+          <!-- LEFT CONTENT -->
+
+          <div class="hero-left">
+            <h1>
+              Evoke Every<br />
+              Emotion with<br />
+              <span>Sigand</span>
+            </h1>
+
+            <div class="socials">
+              <a href="#">
+                <i class="ri-facebook-fill"></i>
+              </a>
+
+              <a href="#">
+                <i class="ri-twitter-x-fill"></i>
+              </a>
+
+              <a href="#">
+                <i class="ri-instagram-line"></i>
+              </a>
+            </div>
           </div>
-        </div>
+
+          <!-- PERFUME IMAGE -->
+
+          <div class="hero-product">
+            <div class="product-bg-shape"></div>
+
+            <img src="img/f1.jpeg" alt="Sigand Perfume" />
+          </div>
+
+          <!-- RIGHT CONTENT -->
+
+          <div class="hero-right">
+            <div class="price">$18</div>
+
+            <div class="product-name">Sigand Essence</div>
+
+            <div class="slider-arrows">
+              <button>
+                <i class="ri-arrow-left-line"></i>
+              </button>
+
+              <button>
+                <i class="ri-arrow-right-line"></i>
+              </button>
+            </div>
+
+            <p>
+              Elevate your everyday moments with our refined fragrances,
+              carefully crafted to create a unique sensory journey of elegance
+              and confidence.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#shop" class="shop-btn"> Shop Now </a>
+
+              <a href="#shop" class="best-link">
+                Best of Sigand
+                <i class="ri-arrow-right-fill"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= BEST SELLER ================= -->
+
+        <section class="best-seller" id="shop">
+          <!-- TITLE -->
+
+          <div class="seller-title">
+            <h3>
+              BEST<br />
+              SELLER
+            </h3>
+
+            <span> 01/03 </span>
+          </div>
+
+          <!-- PRODUCT 1 -->
+
+          <article class="mini-product">
+            <div class="mini-image">
+              <img src="img/f3.jpeg" alt="Cosiness" />
+            </div>
+
+            <div class="mini-info">
+              <strong>$18</strong>
+
+              <h4>Cosiness</h4>
+
+              <p>
+                A soft and comforting fragrance inspired by peaceful moments.
+              </p>
+            </div>
+          </article>
+
+          <!-- PRODUCT 2 -->
+
+          <article class="mini-product">
+            <div class="mini-image">
+              <img src="img/f4.jpeg" alt="Intensity" />
+            </div>
+
+            <div class="mini-info">
+              <strong>$18</strong>
+
+              <h4>Intensity</h4>
+
+              <p>
+                A confident fragrance with a deep and captivating character.
+              </p>
+            </div>
+          </article>
+
+          <!-- PRODUCT 3 -->
+
+          <article class="mini-product">
+            <div class="mini-image">
+              <img src="img/f5.jpeg" alt="Passion" />
+            </div>
+
+            <div class="mini-info">
+              <strong>$18</strong>
+
+              <h4>Passion</h4>
+
+              <p>
+                A warm and expressive scent created for unforgettable moments.
+              </p>
+            </div>
+          </article>
+        </section>
       </div>
+
+      <!-- ================= STORY ================= -->
+
+      <section class="story" id="story">
+        <div>
+          <span>OUR STORY</span>
+
+          <h2>
+            Crafted for<br />
+            <em>every emotion.</em>
+          </h2>
+        </div>
+
+        <p>
+          SIGAND PARFUME combines elegant fragrance compositions with a modern
+          aesthetic. Each scent is created to accompany different moments, moods
+          and personalities.
+        </p>
+      </section>
+
+      <!-- ================= FOOTER ================= -->
+
+      <footer id="contact">
+        <div class="footer-logo">SIGAND</div>
+
+        <div>
+          <a href="#shop">SHOP</a>
+          <a href="#story">ABOUT</a>
+          <a href="#">INSTAGRAM</a>
+        </div>
+
+        <span> © 2026 SIGAND PARFUME </span>
+      </footer>
     </div>
   </body>
 </html>
