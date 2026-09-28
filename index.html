@@ -1,233 +1,362 @@
+```html
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>SIGAND PARFUME</title>
+    <title>SIGAND PARFUME — Crafted for Every Emotion</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"
       rel="stylesheet"
     />
 
+    <!-- Remix Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <!-- BACKGROUND -->
-    <div class="page-bg">
-      <!-- TOP LABEL -->
-      <div class="top-label">
-        <span class="label-icon">
-          <i class="ri-drop-fill"></i>
-        </span>
+    <!-- ================= NAVBAR ================= -->
 
-        <span>HERO SECTION</span>
-      </div>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#" class="brand">
+          <span>SIGAND</span>
+          <small>PARFUME</small>
+        </a>
 
-      <!-- FIGMA ICON -->
-      <div class="design-icon">
-        <i class="ri-flutter-fill"></i>
-      </div>
+        <div class="nav-menu">
+          <a href="#home">Home</a>
+          <a href="#shop">Collection</a>
+          <a href="#story">Our Story</a>
+          <a href="#contact">Contact</a>
+        </div>
 
-      <!-- MAIN WEBSITE -->
-      <div class="site-container">
-        <!-- ================= NAVBAR ================= -->
+        <div class="nav-actions">
+          <button class="icon-btn" aria-label="Search">
+            <i class="ri-search-line"></i>
+          </button>
 
-        <nav class="navbar">
-          <div class="nav-left">
-            <a href="#shop">SHOP</a>
-            <a href="#shop">CATEGORY</a>
-            <a href="#release">NEW RELEASE</a>
+          <a href="#shop" class="cart-btn">
+            <i class="ri-shopping-bag-3-line"></i>
+            <span>Shop</span>
+          </a>
+
+          <button class="menu-btn" aria-label="Menu">
+            <i class="ri-menu-3-line"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <span class="eyebrow"> SIGNATURE FRAGRANCE · 2026 </span>
+
+          <h1>
+            A scent that
+            <em>speaks</em>
+            without words.
+          </h1>
+
+          <p>
+            Discover sophisticated fragrances crafted to express your
+            personality, your mood, and every unforgettable moment.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#shop" class="btn btn-dark">
+              Explore Collection
+              <i class="ri-arrow-right-line"></i>
+            </a>
+
+            <a href="#story" class="text-link">
+              Discover our story
+              <i class="ri-arrow-right-up-line"></i>
+            </a>
           </div>
 
-          <a href="#" class="logo"> Sigand </a>
+          <div class="hero-meta">
+            <div>
+              <strong>03</strong>
+              <span>Signature<br />Scents</span>
+            </div>
 
-          <div class="nav-right">
-            <a href="#story">ABOUT</a>
-            <a href="#shop">BEST SELLER</a>
-            <a href="#contact">CONTACT</a>
-          </div>
-        </nav>
+            <div>
+              <strong>100%</strong>
+              <span>Premium<br />Composition</span>
+            </div>
 
-        <!-- ================= HERO ================= -->
-
-        <section class="hero">
-          <!-- decorative light -->
-          <div class="hero-light"></div>
-
-          <!-- decorative glow -->
-          <div class="hero-glow"></div>
-
-          <!-- LEFT CONTENT -->
-
-          <div class="hero-left">
-            <h1>
-              Evoke Every<br />
-              Emotion with<br />
-              <span>Sigand</span>
-            </h1>
-
-            <div class="socials">
-              <a href="#">
-                <i class="ri-facebook-fill"></i>
-              </a>
-
-              <a href="#">
-                <i class="ri-twitter-x-fill"></i>
-              </a>
-
-              <a href="#">
-                <i class="ri-instagram-line"></i>
-              </a>
+            <div>
+              <strong>24H</strong>
+              <span>Long<br />Lasting</span>
             </div>
           </div>
+        </div>
 
-          <!-- PERFUME IMAGE -->
+        <div class="hero-product">
+          <div class="product-orbit"></div>
 
-          <div class="hero-product">
-            <div class="product-bg-shape"></div>
+          <div class="product-glow"></div>
 
-            <img src="img/f1.jpeg" alt="Sigand Perfume" />
+          <img src="img/f1.jpeg" alt="Sigand Essence Perfume" />
+
+          <div class="floating-card">
+            <span>01</span>
+            <div>
+              <strong>Sigand Essence</strong>
+              <small>Signature Collection</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= COLLECTION ================= -->
+
+      <section class="collection section" id="shop">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">THE COLLECTION</span>
+
+            <h2>
+              Find your
+              <em>signature.</em>
+            </h2>
           </div>
 
-          <!-- RIGHT CONTENT -->
+          <p>
+            Three distinctive fragrances, each created to capture a different
+            emotion and personality.
+          </p>
+        </div>
 
-          <div class="hero-right">
-            <div class="price">$18</div>
+        <div class="products">
+          <!-- PRODUCT 1 -->
 
-            <div class="product-name">Sigand Essence</div>
+          <article class="product-card">
+            <div class="product-image">
+              <span class="product-number">01</span>
 
-            <div class="slider-arrows">
-              <button>
-                <i class="ri-arrow-left-line"></i>
+              <img src="img/f3.jpeg" alt="Cosiness Perfume" />
+
+              <button class="product-add">
+                <i class="ri-add-line"></i>
               </button>
+            </div>
 
-              <button>
-                <i class="ri-arrow-right-line"></i>
-              </button>
+            <div class="product-info">
+              <div>
+                <span class="product-category"> SOFT · WARM </span>
+
+                <h3>Cosiness</h3>
+              </div>
+
+              <strong>$18</strong>
             </div>
 
             <p>
-              Elevate your everyday moments with our refined fragrances,
-              carefully crafted to create a unique sensory journey of elegance
-              and confidence.
+              A soft and comforting fragrance inspired by peaceful moments and
+              warm memories.
             </p>
-
-            <div class="hero-actions">
-              <a href="#shop" class="shop-btn"> Shop Now </a>
-
-              <a href="#shop" class="best-link">
-                Best of Sigand
-                <i class="ri-arrow-right-fill"></i>
-              </a>
-            </div>
-          </div>
-        </section>
-
-        <!-- ================= BEST SELLER ================= -->
-
-        <section class="best-seller" id="shop">
-          <!-- TITLE -->
-
-          <div class="seller-title">
-            <h3>
-              BEST<br />
-              SELLER
-            </h3>
-
-            <span> 01/03 </span>
-          </div>
-
-          <!-- PRODUCT 1 -->
-
-          <article class="mini-product">
-            <div class="mini-image">
-              <img src="img/f3.jpeg" alt="Cosiness" />
-            </div>
-
-            <div class="mini-info">
-              <strong>$18</strong>
-
-              <h4>Cosiness</h4>
-
-              <p>
-                A soft and comforting fragrance inspired by peaceful moments.
-              </p>
-            </div>
           </article>
 
           <!-- PRODUCT 2 -->
 
-          <article class="mini-product">
-            <div class="mini-image">
-              <img src="img/f4.jpeg" alt="Intensity" />
+          <article class="product-card featured">
+            <div class="product-image">
+              <span class="product-number">02</span>
+
+              <img src="img/f4.jpeg" alt="Intensity Perfume" />
+
+              <button class="product-add">
+                <i class="ri-add-line"></i>
+              </button>
             </div>
 
-            <div class="mini-info">
+            <div class="product-info">
+              <div>
+                <span class="product-category"> BOLD · DEEP </span>
+
+                <h3>Intensity</h3>
+              </div>
+
               <strong>$18</strong>
-
-              <h4>Intensity</h4>
-
-              <p>
-                A confident fragrance with a deep and captivating character.
-              </p>
             </div>
+
+            <p>
+              A confident fragrance with a deep and captivating character
+              designed to leave an impression.
+            </p>
           </article>
 
           <!-- PRODUCT 3 -->
 
-          <article class="mini-product">
-            <div class="mini-image">
-              <img src="img/f5.jpeg" alt="Passion" />
+          <article class="product-card">
+            <div class="product-image">
+              <span class="product-number">03</span>
+
+              <img src="img/f5.jpeg" alt="Passion Perfume" />
+
+              <button class="product-add">
+                <i class="ri-add-line"></i>
+              </button>
             </div>
 
-            <div class="mini-info">
+            <div class="product-info">
+              <div>
+                <span class="product-category"> WARM · EXPRESSIVE </span>
+
+                <h3>Passion</h3>
+              </div>
+
               <strong>$18</strong>
+            </div>
 
-              <h4>Passion</h4>
+            <p>
+              A warm and expressive scent created for moments that deserve to be
+              remembered.
+            </p>
+          </article>
+        </div>
+      </section>
 
+      <!-- ================= FEATURE ================= -->
+
+      <section class="feature">
+        <div class="feature-image">
+          <img src="img/f1.jpeg" alt="Sigand Perfume Collection" />
+        </div>
+
+        <div class="feature-content">
+          <span class="eyebrow"> THE SIGAND EXPERIENCE </span>
+
+          <h2>
+            Fragrance is
+            <em>more than</em>
+            a scent.
+          </h2>
+
+          <p>
+            It is a memory. A feeling. A quiet expression of who you are. Sigand
+            creates fragrances designed to become part of your story.
+          </p>
+
+          <div class="feature-list">
+            <div>
+              <span>01</span>
               <p>
-                A warm and expressive scent created for unforgettable moments.
+                <strong>Thoughtful Composition</strong>
+                Carefully selected fragrance notes.
               </p>
             </div>
-          </article>
-        </section>
-      </div>
+
+            <div>
+              <span>02</span>
+              <p>
+                <strong>Modern Character</strong>
+                Elegant scents for contemporary personalities.
+              </p>
+            </div>
+
+            <div>
+              <span>03</span>
+              <p>
+                <strong>Made to Last</strong>
+                A refined fragrance experience throughout the day.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- ================= STORY ================= -->
 
-      <section class="story" id="story">
-        <div>
-          <span>OUR STORY</span>
+      <section class="story section" id="story">
+        <div class="story-heading">
+          <span class="eyebrow">OUR STORY</span>
 
           <h2>
-            Crafted for<br />
+            Crafted for
             <em>every emotion.</em>
           </h2>
         </div>
 
-        <p>
-          SIGAND PARFUME combines elegant fragrance compositions with a modern
-          aesthetic. Each scent is created to accompany different moments, moods
-          and personalities.
-        </p>
+        <div class="story-content">
+          <p>
+            SIGAND PARFUME was created from a simple idea: fragrance should feel
+            personal.
+          </p>
+
+          <p>
+            Every composition is designed to accompany different moods, moments,
+            and personalities — from quiet mornings to unforgettable evenings.
+          </p>
+
+          <a href="#contact" class="text-link">
+            Learn more about Sigand
+            <i class="ri-arrow-right-up-line"></i>
+          </a>
+        </div>
       </section>
+    </main>
 
-      <!-- ================= FOOTER ================= -->
+    <!-- ================= FOOTER ================= -->
 
-      <footer id="contact">
-        <div class="footer-logo">SIGAND</div>
+    <footer id="contact">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a href="#" class="brand">
+            <span>SIGAND</span>
+            <small>PARFUME</small>
+          </a>
 
-        <div>
-          <a href="#shop">SHOP</a>
-          <a href="#story">ABOUT</a>
-          <a href="#">INSTAGRAM</a>
+          <p>Fragrance designed to become part of your story.</p>
         </div>
 
+        <div class="footer-column">
+          <h4>Explore</h4>
+
+          <a href="#home">Home</a>
+          <a href="#shop">Collection</a>
+          <a href="#story">Our Story</a>
+        </div>
+
+        <div class="footer-column">
+          <h4>Connect</h4>
+
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">TikTok</a>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contact</h4>
+
+          <a href="mailto:hello@sigand.com"> hello@sigand.com </a>
+
+          <span> Tasikmalaya, Indonesia </span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
         <span> © 2026 SIGAND PARFUME </span>
-      </footer>
-    </div>
+
+        <span> Crafted with intention. </span>
+      </div>
+    </footer>
   </body>
 </html>
+```
